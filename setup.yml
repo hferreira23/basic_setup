@@ -1,0 +1,8 @@
+- name: Basic setup playbook
+  hosts: localhost
+  become: true
+
+  tasks:
+    - name: import vim role
+      import_role:
+        name: vim
