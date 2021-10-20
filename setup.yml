@@ -6,3 +6,7 @@
     - name: import vim role
       import_role:
         name: vim
+
+    - name: import bash_it role
+      import_role:
+        name: bash_it
