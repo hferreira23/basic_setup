@@ -2,5 +2,10 @@ collections:
 - name: community.general
 - name: ansible.posix
 - name: ansible.netcommon
-- name: community.docker
-- name: community.libvirt
+
+roles:
+- name: vim
+  src: hferreira23.vim
+- name: bash_it
+  src: hferreira23.bash_it
+  version: 1.1.2
