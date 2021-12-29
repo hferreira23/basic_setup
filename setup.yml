@@ -6,7 +6,11 @@
     - name: import vim role
       import_role:
         name: vim
+      tags:
+        - vim
 
     - name: import bash_it role
       import_role:
         name: bash_it
+      tags:
+        - bashit
