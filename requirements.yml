@@ -8,4 +8,3 @@ roles:
   src: hferreira23.vim
 - name: bash_it
   src: hferreira23.bash_it
-  version: 1.1.2
